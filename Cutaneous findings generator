@@ -67,6 +67,12 @@
       border-radius: 4px;
       padding-right: 10px; 
     }
+    #clear {
+      background-color: pink;
+      text-align: center;
+      border-radius: 4px;
+      padding-right: 10px;
+    }
    </style>
    </head>
    <body>
@@ -271,8 +277,14 @@
                <td><input type="button" name="over" value="over" onclick="CFgenerator.display.value += 'over '"></td>
                <td><input type="button" name="in" value="in" onclick="CFgenerator.display.value += 'in '"></td>
                <td><input type="button" name="of" value="of" onclick="CFgenerator.display.value += 'of '"></td>
+            </tr>
+            <tr>
                <td><input type="button" name="his" value="his" onclick="CFgenerator.display.value += 'his '"></td>
                <td><input type="button" name="her" value="her" onclick="CFgenerator.display.value += 'her '"></td>
+               <td><input type="button" name="left" value="left" onclick="CFgenerator.display.value += 'left '"></td>
+               <td><input type="button" name="right" value="right" onclick="CFgenerator.display.value += 'right '"></td>
+               <td><input type="button" name="both" value="both" onclick="CFgenerator.display.value += 'both '"></td>
+               <td><input type="button" name="bilateral" value="bilateral" onclick="CFgenerator.display.value += 'bilateral '"></td>
             </tr>
             <tr>
                <td><input type="button" name="face" value="face" onclick="CFgenerator.display.value += 'face.'"></td>
@@ -347,6 +359,11 @@
                <td><input type="button" name="with moth-eaten pattern" value="with moth-eaten pattern" onclick="CFgenerator.display.value += 'with moth-eaten pattern '"></td>
                <td><input type="button" name="at periorificial areas" value="at periorificial areas" onclick="CFgenerator.display.value += 'at periorificial areas '"></td>
                <td><input type="button" name="with satellite lesions" value="with satellite lesions" onclick="CFgenerator.display.value += 'with satellite lesions '"></td>
+            </tr>
+         </table>
+         <table id="clear">
+            <tr>
+               <td><input type="button" id="clear" name="clear" value="c" onclick="CFgenerator.display.value = ''"></td>
             </tr>
          </table>
       </form>
