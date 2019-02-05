@@ -190,48 +190,47 @@
             <tr>
                <td><input type="button" name="skin-colored" value="skin-colored" onclick="CFgenerator.display.value += 'skin-colored '"></td>
                <td><input type="button" name="transparent" value="transparent" onclick="CFgenerator.display.value += 'transparent '"></td>
-               <td><input type="button" name=“,” value=“,” onclick="CFgenerator.display.value += ‘, ‘”></td>
             </tr>
          </table>
          <table id="character">
             <tr>
-               <td><input type="button" name="soft" value="soft" onclick="CFgenerator.display.value += 'soft, '"></td>
-               <td><input type="button" name="firm" value="firm" onclick="CFgenerator.display.value += 'firm, '"></td>
-               <td><input type="button" name="elastic" value="elastic" onclick="CFgenerator.display.value += 'elastic, '"></td>
-               <td><input type="button" name="stony" value="stony" onclick="CFgenerator.display.value += 'stony, '"></td>
-               <td><input type="button" name="fragile" value="fragile" onclick="CFgenerator.display.value += 'fragile, '"></td>
-               <td><input type="button" name="fluctuant" value="fluctuant" onclick="CFgenerator.display.value += 'fluctuant, '"></td>
+               <td><input type="button" name="soft" value="soft" onclick="CFgenerator.display.value += 'soft '"></td>
+               <td><input type="button" name="firm" value="firm" onclick="CFgenerator.display.value += 'firm '"></td>
+               <td><input type="button" name="elastic" value="elastic" onclick="CFgenerator.display.value += 'elastic '"></td>
+               <td><input type="button" name="stony" value="stony" onclick="CFgenerator.display.value += 'stony '"></td>
+               <td><input type="button" name="fragile" value="fragile" onclick="CFgenerator.display.value += 'fragile '"></td>
+               <td><input type="button" name="fluctuant" value="fluctuant" onclick="CFgenerator.display.value += 'fluctuant '"></td>
             <tr>
             </tr>
-               <td><input type="button" name="flaccid" value="flaccid" onclick="CFgenerator.display.value += 'flaccid, '"></td>
-               <td><input type="button" name="tense" value="tense" onclick="CFgenerator.display.value += 'tense, '"></td>
-               <td><input type="button" name="excoriated" value="excoriated" onclick="CFgenerator.display.value += 'excoriated, '"></td>
-               <td><input type="button" name="scaly" value="scaly" onclick="CFgenerator.display.value += 'scaly, '"></td>
-               <td><input type="button" name="with fine scales" value="with fine scales" onclick="CFgenerator.display.value += 'with fine scales, '"></td>
-               <td><input type="button" name="with peripheral scales" value="with peripheral scales" onclick="CFgenerator.display.value += 'with peripheral scales, '"></td>   
+               <td><input type="button" name="flaccid" value="flaccid" onclick="CFgenerator.display.value += 'flaccid '"></td>
+               <td><input type="button" name="tense" value="tense" onclick="CFgenerator.display.value += 'tense '"></td>
+               <td><input type="button" name="excoriated" value="excoriated" onclick="CFgenerator.display.value += 'excoriated '"></td>
+               <td><input type="button" name="scaly" value="scaly" onclick="CFgenerator.display.value += 'scaly '"></td>
+               <td><input type="button" name="with fine scales" value="with fine scales" onclick="CFgenerator.display.value += 'with fine scales '"></td>
+               <td><input type="button" name="with peripheral scales" value="with peripheral scales" onclick="CFgenerator.display.value += 'with peripheral scales '"></td>   
             </tr>
             <tr>
-               <td><input type="button" name="macerated" value="macerated" onclick="CFgenerator.display.value += 'macerated, '"></td>
+               <td><input type="button" name="macerated" value="macerated" onclick="CFgenerator.display.value += 'macerated '"></td>
                
-               <td><input type="button" name="ulcerated" value="ulcerated" onclick="CFgenerator.display.value += 'ulcerated, '"></td>
-               <td><input type="button" name="fissurized" value="fissurized" onclick="CFgenerator.display.value += 'fissurized, '"></td>
-               <td><input type="button" name="lichenified" value="lichenified" onclick="CFgenerator.display.value += 'lichenified, '"></td>
-               <td><input type="button" name="crusted" value="crusted" onclick="CFgenerator.display.value += 'crusted, '"></td>
-               <td><input type="button" name="with honey-colored crusts" value="with honey-colored crusts" onclick="CFgenerator.display.value += 'with honey-colored crusts, '"></td>
+               <td><input type="button" name="ulcerated" value="ulcerated" onclick="CFgenerator.display.value += 'ulcerated '"></td>
+               <td><input type="button" name="fissurized" value="fissurized" onclick="CFgenerator.display.value += 'fissurized '"></td>
+               <td><input type="button" name="lichenified" value="lichenified" onclick="CFgenerator.display.value += 'lichenified '"></td>
+               <td><input type="button" name="crusted" value="crusted" onclick="CFgenerator.display.value += 'crusted '"></td>
+               <td><input type="button" name="with honey-colored crusts" value="with honey-colored crusts" onclick="CFgenerator.display.value += 'with honey-colored crusts '"></td>
             </tr>
             <tr>
-               <td><input type="button" name="indurative" value="indurative" onclick="CFgenerator.display.value += 'indurative, '"></td>
-               <td><input type="button" name="infiltrative" value="infiltrative" onclick="CFgenerator.display.value += 'infiltrative, '"></td>
-               <td><input type="button" name="atrophic" value="atrophic" onclick="CFgenerator.display.value += 'atrophic, '"></td>
-               <td><input type="button" name="shiny" value="shiny" onclick="CFgenerator.display.value += 'shiny, '"></td>
-               <td><input type="button" name="oily" value="oily" onclick="CFgenerator.display.value += 'oily, '"></td>
-               <td><input type="button" name="with telangiectasia" value="with telangiectasia" onclick="CFgenerator.display.value += 'with telangiectasia, '"></td>   
+               <td><input type="button" name="indurative" value="indurative" onclick="CFgenerator.display.value += 'indurative '"></td>
+               <td><input type="button" name="infiltrative" value="infiltrative" onclick="CFgenerator.display.value += 'infiltrative '"></td>
+               <td><input type="button" name="atrophic" value="atrophic" onclick="CFgenerator.display.value += 'atrophic '"></td>
+               <td><input type="button" name="shiny" value="shiny" onclick="CFgenerator.display.value += 'shiny '"></td>
+               <td><input type="button" name="oily" value="oily" onclick="CFgenerator.display.value += 'oily '"></td>
+               <td><input type="button" name="with telangiectasia" value="with telangiectasia" onclick="CFgenerator.display.value += 'with telangiectasia '"></td>   
             </tr>
             <tr>
-               <td><input type="button" name="umbilicated" value="umbilicated" onclick="CFgenerator.display.value += 'umbilicated, '"></td>
-               <td><input type="button" name="rough" value="rough" onclick="CFgenerator.display.value += 'rough, '"></td>
-               <td><input type="button" name="smooth" value="smooth" onclick="CFgenerator.display.value += 'smooth, '"></td>
-               <td><input type="button" name="polypoid" value="polypoid" onclick="CFgenerator.display.value += 'polypoid, '"></td>
+               <td><input type="button" name="umbilicated" value="umbilicated" onclick="CFgenerator.display.value += 'umbilicated '"></td>
+               <td><input type="button" name="rough" value="rough" onclick="CFgenerator.display.value += 'rough '"></td>
+               <td><input type="button" name="smooth" value="smooth" onclick="CFgenerator.display.value += 'smooth '"></td>
+               <td><input type="button" name="polypoid" value="polypoid" onclick="CFgenerator.display.value += 'polypoid '"></td>
             </tr>
          </table>
          <table id="body">
