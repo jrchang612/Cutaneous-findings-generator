@@ -78,13 +78,7 @@
    <body>
    	  <h1>Cutaneous Findings Generator</h1>
       <form name="CFgenerator">
-         <table id =”display”>
-            <tr>
-               <td colspan="10">
-                  <textarea rows="4" cols="100" name="display" id="display"></textarea>
-               </td>
-            </tr>
-         </table>
+         <textarea rows="4" cols="100" name="display" id="display"></textarea>
          <table id ="basic">
             <tr>
                <td><input type="button" name="is" value="There is " onclick="CFgenerator.display.value += 'There is '"></td>
@@ -143,6 +137,7 @@
                <td><input type="button" name="targetoid" value="targetoid" onclick="CFgenerator.display.value += 'targetoid, '"></td>
                <td><input type="button" name="verrucous" value="verrucous" onclick="CFgenerator.display.value += 'verrucous, '"></td>
                <td><input type="button" name="asymmetric" value="asymmetric" onclick="CFgenerator.display.value += 'asymmetric, '"></td>
+            </tr>
             </table>
             <table id="margin">
             <tr>
@@ -206,8 +201,8 @@
                <td><input type="button" name="stony" value="stony" onclick="CFgenerator.display.value += 'stony '"></td>
                <td><input type="button" name="fragile" value="fragile" onclick="CFgenerator.display.value += 'fragile '"></td>
                <td><input type="button" name="fluctuant" value="fluctuant" onclick="CFgenerator.display.value += 'fluctuant '"></td>
-            <tr>
             </tr>
+            <tr>
                <td><input type="button" name="flaccid" value="flaccid" onclick="CFgenerator.display.value += 'flaccid '"></td>
                <td><input type="button" name="tense" value="tense" onclick="CFgenerator.display.value += 'tense '"></td>
                <td><input type="button" name="excoriated" value="excoriated" onclick="CFgenerator.display.value += 'excoriated '"></td>
@@ -252,6 +247,7 @@
                <td><input type="button" name="plaque" value="plaque" onclick="CFgenerator.display.value += 'plaque '"></td>
                <td><input type="button" name="subcutaneous mass" value="subcutaneous mass" onclick="CFgenerator.display.value += 'subcutaneous mass '"></td>
             </tr>
+            <tr>
                <td><input type="button" name="petechiae" value="petechiae" onclick="CFgenerator.display.value += 'petechiae '"></td>
                <td><input type="button" name="purpura" value="purpura" onclick="CFgenerator.display.value += 'purpura '"></td>
                <td><input type="button" name="ecchymosis" value="ecchymosis" onclick="CFgenerator.display.value += 'ecchymosis '"></td>
